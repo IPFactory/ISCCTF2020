@@ -1,0 +1,8 @@
+version: "3"
+services:
+  maze:
+    build:
+      context: .
+    command: python3 /opt/challenge/server.py
+    ports: 
+      - "5005:16800"

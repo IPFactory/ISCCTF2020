@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mark-damn-it:
+    build:
+      context: .
+    working_dir: /home/markdamnit
+    ports:
+      - 0.0.0.0:14001:4567
+    restart: always
+    ulimits:
+      nproc: 65535
+      core: 0
+    cap_add:
+      - SYS_PTRACE
+    entrypoint: /etc/init.sh
+

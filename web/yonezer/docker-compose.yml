@@ -1,0 +1,7 @@
+version: "3"
+services:
+  yonezer:
+    build: "./"
+    ports:
+      - 14003:80
+    restart: always

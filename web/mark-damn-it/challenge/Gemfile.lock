@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kgio (2.11.3)
+    kramdown (2.2.1)
+      rexml
+    rack (2.2.3)
+    raindrops (0.19.1)
+    rexml (3.2.4)
+    unicorn (5.7.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown (= 2.2.1)
+  rack
+  unicorn
+
+BUNDLED WITH
+   2.1.2

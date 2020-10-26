@@ -1,0 +1,1 @@
+ISCCTF{chr00t_1s_n0t_ch4ng3_cwd}

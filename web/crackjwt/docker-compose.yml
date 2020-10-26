@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nginx:
+      build:
+        context: .
+        dockerfile: ./containers/nginx/Dockerfile
+      restart:  always
+      ports:
+          - "14002:80"
+      depends_on:
+          - crackjwt
+  crackjwt:
+      build:
+        context: .
+        dockerfile: ./containers/php/Dockerfile
+      restart: always

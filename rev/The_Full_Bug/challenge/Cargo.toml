@@ -1,0 +1,10 @@
+[package]
+name = "The_Full_Bug"
+version = "0.1.0"
+authors = ["n01e0 <noleo@vanillabeans.mobi>"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.13.0"
+crypto-hash = "0.3.4"
+nix = "0.18.0"

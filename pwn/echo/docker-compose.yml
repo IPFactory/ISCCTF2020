@@ -1,0 +1,13 @@
+version: '3'
+services:
+  echo:
+    build:
+      context: .
+    restart: always
+    working_dir: /home/pwn
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+        - "4002:4002"
+    entrypoint: /etc/init.sh

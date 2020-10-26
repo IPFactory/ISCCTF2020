@@ -1,0 +1,1 @@
+ISCCTF{th3_f1r5t_4rgum3nt_0f_printf_must_b3_a_str1ng_l1t3r4l}

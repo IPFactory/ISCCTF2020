@@ -1,0 +1,13 @@
+version: '3'
+services:
+  shell_aint_bad_place_to_be:
+    build:
+      context: .
+    working_dir: /home/misc
+    container_name: shell_aint_bad_place_to_be
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+        - "5000:5000"
+    entrypoint: /etc/init.sh

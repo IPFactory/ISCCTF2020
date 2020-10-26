@@ -1,0 +1,7 @@
+version: "3"
+services:
+  greetinjs:
+    build:
+      context: .
+    ports:
+      - 14000:80
