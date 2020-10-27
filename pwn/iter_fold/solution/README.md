@@ -99,8 +99,7 @@ f.array[4] == f.ops[-1]
 `f.array[4]`に任意のアドレスを入れれば，それを呼び出せる訳です．
 
 ```python3
-
-m pwn import *
+from pwn import *
 
 binfile = '../distfiles/chall'
 e = ELF(binfile)
